@@ -1,0 +1,14 @@
+@import "~tippy.js/dist/tippy.css";
+
+// Theme
+@import "~tippy.js/themes/light-border.css";
+@import "~tippy.js/themes/material.css";
+// Animation
+@import "~tippy.js/animations/scale-extreme.css";
+@import "~tippy.js/animations/perspective-extreme.css";
+@import "~tippy.js/animations/shift-toward-extreme.css";
+@import "~tippy.js/animations/shift-away-extreme.css";
+
+.tippy-box[data-theme~=light-border] {
+  box-shadow: none;
+}

@@ -1,0 +1,49 @@
+@charset "UTF-8";
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,400;0,600;0,700;0,800;1,400&family=Poppins:wght@400;600;700;800&display=swap');
+@import "../mixvar/mixins";
+@import "../mixvar/variables";
+
+@import "node_modules/bootstrap/scss/functions";
+@import "node_modules/bootstrap/scss/variables";
+@import "node_modules/bootstrap/scss/mixins";
+
+html,
+body {
+  scroll-behavior: smooth;
+}
+body {
+  position: relative;
+  overflow: hidden;
+  overflow-y: auto;
+  margin: 0;
+  padding: 0;
+}
+// Resetting Global Tags Margin
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  margin: 0;
+  font-family: $font-family-heading;
+  font-weight: 700;
+}
+
+.main {
+  min-height: calc(100vh - 65px);
+}
+
+.fixed-footer {
+  background-color: $color-inverse;
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  width: 100%;
+  z-index: 3;
+}
+
+@import "../plugins/plugins";
+@import "components/index";
+@import "pages/index";

@@ -1,0 +1,92 @@
+@mixin vcenter {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.vcenter {
+  @include vcenter();
+}
+
+@mixin vstart {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+}
+
+.vstart {
+  @include vstart();
+}
+
+@mixin vend {
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+}
+.vend {
+  @include vend();
+}
+
+@mixin vspace {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.vspace {
+  @include vspace();
+}
+
+// Top only
+
+@mixin vtop {
+  display: flex;
+  justify-content: flex-start;
+}
+.vtop {
+  @include vtop();
+}
+
+@mixin vendtop {
+  display: flex;
+  justify-content: flex-end;
+}
+.vendtop {
+  @include vendtop();
+}
+
+// Icon Colors
+@mixin iconStyle($size) {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  width: $size;
+  height: $size;
+  margin: 0 5px;
+  border-radius: 50%;
+  background-color: $header-icon-bg;
+  @include transition();
+  &:first-child {
+    margin-left: 0;
+  }
+  &:last-child {
+    margin-right: 0;
+  }
+  &:hover {
+    background-color: transparentize($header-icon-bg, 0.1);
+  }
+}
+
+// ScrollBar Styling
+
+@mixin scrollBar($size) {
+  &::-webkit-scrollbar {
+    width: $size;
+    height: $size;
+  }
+  &::-webkit-scrollbar-track {
+    box-shadow: inset 0 0 4px rgba(0, 0, 0, 0.3);
+  }
+  &::-webkit-scrollbar-thumb {
+    box-shadow: inset 0 0 4px rgba(0, 0, 0, 0.5);
+  }
+}

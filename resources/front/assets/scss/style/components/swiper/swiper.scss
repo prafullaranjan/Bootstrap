@@ -1,0 +1,12 @@
+.property-card-slider {
+  min-height: 190px;
+  position: relative;
+  .swiper-container {
+    min-height: 190px;
+    height: 100%;
+  }
+  .swiper-lazy-preloader {
+    top: 0;
+    margin-top: 27%;
+  }
+}

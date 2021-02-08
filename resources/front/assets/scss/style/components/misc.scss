@@ -1,0 +1,36 @@
+.card {
+  @include box-shadow($box-shadow-sm);
+}
+.form-control {
+  min-height: $input-height;
+  @include scrollBar(4px);
+}
+textarea.form-control {
+  min-height: ($input-height * 2 - 2);
+}
+
+// Shadow
+.shadow-md {
+  @include box-shadow($box-shadow-md);
+}
+
+// Bootstrap Carousel
+.carousel-caption {
+  background-color: transparentize(darken($theme, 40%), 0.5);
+  border-radius: $border-radius;
+}
+.carousel-control-next-icon, .carousel-control-prev-icon {
+  @include iconStyle(50px);
+  background-size: 50% 50%;
+  margin: 0;
+  @include media-breakpoint-down(md) {
+    width: 25px;
+    height: 26px;
+  }
+}
+.carousel-indicators li {
+  @include media-breakpoint-down(md) {
+    border-top: 5px solid transparent;
+    border-bottom: 5px solid transparent;
+  }
+}
