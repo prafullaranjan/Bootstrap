@@ -4,6 +4,7 @@ mix
     // Frontend
     .sass('resources/front/assets/scss/framework/framework.scss', 'css/')
     .sass('resources/front/assets/scss/style/style.scss', 'css/')
+    .sass('resources/front/assets/scss/neumorphism/neumorphism.scss', 'css/')
     .js('resources/front/assets/js/app.js', 'js/framework.js')
 
     .options({

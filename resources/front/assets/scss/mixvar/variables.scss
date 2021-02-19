@@ -4,12 +4,28 @@ $font-family-heading: "Poppins", sans-serif;
 $font-family-base: "Open Sans", sans-serif;
 
 
+
+// Quickly modify global styling
+$enable-caret:                true;
+$enable-rounded:              true;
+$enable-shadows:              true;
+$enable-gradients:            false;
+$enable-transitions:          true;
+$enable-reduced-motion:       false;
+$enable-smooth-scroll:        true;
+$enable-grid-classes:         true;
+$enable-button-pointers:      true;
+$enable-rfs:                  true;
+$enable-validation-icons:     true;
+$enable-negative-margins:     true;
+$enable-deprecation-messages: true;
+$enable-important-utilities:  true;
+
 // Font Weight
 $font-weight-bolder : 800;
 $font-weight-bold: 600;
 $font-weight-normal: 400;
 $font-weight-base: $font-weight-normal;
-
 
 // Containers
 $grid-breakpoints: (
@@ -31,6 +47,11 @@ $container-max-widths: (
         xxl: 1320px
 );
 
+// FontAwesome
+$fontAwesome: "Font Awesome 5 Free";
+// Neumorphism
+
+$neumorphism : true;
 
 // Color system
 $white: #fff;
@@ -50,12 +71,11 @@ $cyan: #0dcaf0;
 //Theme
 $theme: $teal;
 
-
 // Color Variables
 $color-inverse: $white;
 
 // Theme Variables
-$body-bg: #f9f9f9;
+$body-bg: #e7e7e7;
 $body-color: $black;
 
 // Spacer
@@ -105,24 +125,6 @@ $theme-colors: (
 
 $theme-color-interval: 50%;
 $min-contrast-ratio: 1.9;
-
-
-// Quickly modify global styling by enabling or disabling optional features.
-
-$enable-caret:                true;
-$enable-rounded:              true;
-$enable-shadows:              true;
-$enable-gradients:            false;
-$enable-transitions:          true;
-$enable-reduced-motion:       false;
-$enable-smooth-scroll:        true;
-$enable-grid-classes:         true;
-$enable-button-pointers:      true;
-$enable-rfs:                  true;
-$enable-validation-icons:     true;
-$enable-negative-margins:     true;
-$enable-deprecation-messages: true;
-$enable-important-utilities:  true;
 
 // Navbar
 $nav-link-font-size: 18px;
@@ -210,6 +212,12 @@ $spinner-border-width: 2px;
 $spinner-width: 3rem;
 $spinner-height: 3rem;
 
+
+// Breadcrumb
+$breadcrumb-bg: $white;
+$breadcrumb-border-radius: 0;
+$breadcrumb-font-size: ($badge-font-size + 3);
+
 // Custom
 $navbar-height: 65px;
 
@@ -219,16 +227,7 @@ $sidebar-icon-width: 40px;
 $sidebar-width: 220px;
 $sidebar-mini-width: 60px;
 
-// Breadcrumb
-$breadcrumb-bg: $white;
-$breadcrumb-border-radius: 0;
-$breadcrumb-font-size: ($badge-font-size + 3);
-
-// Theme Based
-
 // Header Icons
 $header-icon-bg     : transparentize(lighten($theme, 30%), 0.6);
 $header-icon-color  : $color-inverse;
 
-// FontAwesome
-$fontAwesome: "Font Awesome 5 Free";

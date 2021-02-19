@@ -1,7 +1,24 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="cf338b31-eca8-4939-b6c3-4d12370544eb" name="Default Changelist" comment="" />
+    <list default="true" id="cf338b31-eca8-4939-b6c3-4d12370544eb" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/index2.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/front/assets/css/neumorphism.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/front/assets/scss/neumorphism/components/index.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/front/assets/scss/neumorphism/neumorphism.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/front/assets/css/framework.css" beforeDir="false" afterPath="$PROJECT_DIR$/public/front/assets/css/framework.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/front/assets/css/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/public/front/assets/css/style.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/front/assets/js/framework.js" beforeDir="false" afterPath="$PROJECT_DIR$/public/front/assets/js/framework.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/front/assets/mix-manifest.json" beforeDir="false" afterPath="$PROJECT_DIR$/public/front/assets/mix-manifest.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/front/assets/js/plugins/pace/pace.scss" beforeDir="false" afterPath="$PROJECT_DIR$/resources/front/assets/js/plugins/pace/pace.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/front/assets/scss/mixvar/mixins.scss" beforeDir="false" afterPath="$PROJECT_DIR$/resources/front/assets/scss/mixvar/mixins.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/front/assets/scss/mixvar/variables.scss" beforeDir="false" afterPath="$PROJECT_DIR$/resources/front/assets/scss/mixvar/variables.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/front/assets/scss/style/components/misc.scss" beforeDir="false" afterPath="$PROJECT_DIR$/resources/front/assets/scss/style/components/misc.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/front/assets/scss/style/style.scss" beforeDir="false" afterPath="$PROJECT_DIR$/resources/front/assets/scss/style/style.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/webpack.mix.js" beforeDir="false" afterPath="$PROJECT_DIR$/webpack.mix.js" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -10,12 +27,20 @@
   <component name="ComposerSettings">
     <execution />
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
   <component name="ProjectId" id="1oBiHDvkYEeYCVFCm6aoDixkBEn" />
+  <component name="ProjectLevelVcsManager">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
+    <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
+    <property name="ASKED_SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
@@ -24,6 +49,9 @@
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
   <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\xampp\htdocs\bootstrap" />
+    </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="C:\xampp\htdocs\bootstrap\resources\front\assets\scss\mixvar" />
       <recent name="C:\xampp\htdocs\bootstrap\resources\front\assets\scss" />
@@ -40,10 +68,25 @@
       <updated>1612766295272</updated>
       <workItem from="1612766296470" duration="15512000" />
       <workItem from="1612785412636" duration="5845000" />
+      <workItem from="1613747875747" duration="1948000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
   </component>
 </project>

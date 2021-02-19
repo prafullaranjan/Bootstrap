@@ -87,7 +87,7 @@ body {
   font-weight: 400;
   line-height: 1.5;
   color: #0b1717;
-  background-color: #f9f9f9;
+  background-color: #e7e7e7;
   -webkit-text-size-adjust: 100%;
   -webkit-tap-highlight-color: rgba(11, 23, 23, 0);
 }
@@ -607,7 +607,7 @@ progress {
 
 .img-thumbnail {
   padding: 0.25rem;
-  background-color: #f9f9f9;
+  background-color: #e7e7e7;
   border: 2px solid #dee2e6;
   border-radius: 5px;
   box-shadow: 0 2px 2px 0 rgba(0, 0, 0, 0.14), 0 3px 1px -2px rgba(0, 0, 0, 0.12), 0 1px 5px 0 rgba(0, 0, 0, 0.2);
@@ -2647,7 +2647,7 @@ textarea.form-control-lg {
   height: 1em;
   margin-top: 0.25em;
   vertical-align: top;
-  background-color: #f9f9f9;
+  background-color: #e7e7e7;
   background-repeat: no-repeat;
   background-position: center;
   background-size: contain;
@@ -2744,10 +2744,10 @@ textarea.form-control-lg {
   outline: none;
 }
 .form-range:focus::-webkit-slider-thumb {
-  box-shadow: 0 0 0 1px #f9f9f9, 0;
+  box-shadow: 0 0 0 1px #e7e7e7, 0;
 }
 .form-range:focus::-moz-range-thumb {
-  box-shadow: 0 0 0 1px #f9f9f9, 0;
+  box-shadow: 0 0 0 1px #e7e7e7, 0;
 }
 .form-range::-moz-focus-outer {
   border: 0;
@@ -4367,8 +4367,8 @@ textarea.form-control-lg {
 .nav-tabs .nav-link.active,
 .nav-tabs .nav-item.show .nav-link {
   color: #495057;
-  background-color: #f9f9f9;
-  border-color: #dee2e6 #dee2e6 #f9f9f9;
+  background-color: #e7e7e7;
+  border-color: #dee2e6 #dee2e6 #e7e7e7;
 }
 .nav-tabs .dropdown-menu {
   margin-top: -2px;
@@ -8151,7 +8151,7 @@ textarea.form-control-lg {
 }
 
 .bg-body {
-  background-color: #f9f9f9 !important;
+  background-color: #e7e7e7 !important;
 }
 
 .bg-white {

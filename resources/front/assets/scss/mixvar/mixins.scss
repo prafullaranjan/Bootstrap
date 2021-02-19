@@ -55,7 +55,7 @@
 }
 
 // Icon Colors
-@mixin iconStyle($size) {
+@mixin icon($size) {
   display: inline-flex;
   align-items: center;
   justify-content: center;

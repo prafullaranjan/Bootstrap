@@ -20,7 +20,7 @@ textarea.form-control {
   border-radius: $border-radius;
 }
 .carousel-control-next-icon, .carousel-control-prev-icon {
-  @include iconStyle(50px);
+  @include icon(50px);
   background-size: 50% 50%;
   margin: 0;
   @include media-breakpoint-down(md) {
