@@ -1,22 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="cf338b31-eca8-4939-b6c3-4d12370544eb" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/index2.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/front/assets/css/neumorphism.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/front/assets/scss/neumorphism/components/index.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/front/assets/scss/neumorphism/neumorphism.scss" afterDir="false" />
+    <list default="true" id="cf338b31-eca8-4939-b6c3-4d12370544eb" name="Default Changelist" comment="Neumorphism added as option">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/front/assets/css/framework.css" beforeDir="false" afterPath="$PROJECT_DIR$/public/front/assets/css/framework.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/front/assets/css/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/public/front/assets/css/style.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/front/assets/js/framework.js" beforeDir="false" afterPath="$PROJECT_DIR$/public/front/assets/js/framework.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/front/assets/mix-manifest.json" beforeDir="false" afterPath="$PROJECT_DIR$/public/front/assets/mix-manifest.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/front/assets/js/plugins/pace/pace.scss" beforeDir="false" afterPath="$PROJECT_DIR$/resources/front/assets/js/plugins/pace/pace.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/front/assets/scss/mixvar/mixins.scss" beforeDir="false" afterPath="$PROJECT_DIR$/resources/front/assets/scss/mixvar/mixins.scss" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/resources/front/assets/scss/mixvar/variables.scss" beforeDir="false" afterPath="$PROJECT_DIR$/resources/front/assets/scss/mixvar/variables.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/front/assets/scss/style/components/misc.scss" beforeDir="false" afterPath="$PROJECT_DIR$/resources/front/assets/scss/style/components/misc.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/front/assets/scss/style/style.scss" beforeDir="false" afterPath="$PROJECT_DIR$/resources/front/assets/scss/style/style.scss" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/webpack.mix.js" beforeDir="false" afterPath="$PROJECT_DIR$/webpack.mix.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -68,7 +55,8 @@
       <updated>1612766295272</updated>
       <workItem from="1612766296470" duration="15512000" />
       <workItem from="1612785412636" duration="5845000" />
-      <workItem from="1613747875747" duration="1948000" />
+      <workItem from="1613747875747" duration="2014000" />
+      <workItem from="1613974671797" duration="45000" />
     </task>
     <servers />
   </component>
@@ -85,8 +73,11 @@
         </entry>
       </map>
     </option>
+    <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
+    <MESSAGE value="Neumorphism added as option" />
+    <option name="LAST_COMMIT_MESSAGE" value="Neumorphism added as option" />
   </component>
 </project>
