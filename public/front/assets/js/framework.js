@@ -743,17 +743,6 @@ eval("__webpack_require__.r(__webpack_exports__);\n// extracted by mini-css-extr
 
 /***/ }),
 
-/***/ "./resources/front/assets/scss/neumorphism/neumorphism.scss":
-/*!******************************************************************!*\
-  !*** ./resources/front/assets/scss/neumorphism/neumorphism.scss ***!
-  \******************************************************************/
-/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
-
-"use strict";
-eval("__webpack_require__.r(__webpack_exports__);\n// extracted by mini-css-extract-plugin\n//# sourceURL=[module]\n//# sourceMappingURL=data:application/json;charset=utf-8;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbIndlYnBhY2s6Ly9ib290c3RyYXAvLi9yZXNvdXJjZXMvZnJvbnQvYXNzZXRzL3Njc3MvbmV1bW9ycGhpc20vbmV1bW9ycGhpc20uc2Nzcz9lMjg1Il0sIm5hbWVzIjpbXSwibWFwcGluZ3MiOiI7QUFBQSIsImZpbGUiOiIuL3Jlc291cmNlcy9mcm9udC9hc3NldHMvc2Nzcy9uZXVtb3JwaGlzbS9uZXVtb3JwaGlzbS5zY3NzLmpzIiwic291cmNlc0NvbnRlbnQiOlsiLy8gZXh0cmFjdGVkIGJ5IG1pbmktY3NzLWV4dHJhY3QtcGx1Z2luXG5leHBvcnQge307Il0sInNvdXJjZVJvb3QiOiIifQ==\n//# sourceURL=webpack-internal:///./resources/front/assets/scss/neumorphism/neumorphism.scss\n");
-
-/***/ }),
-
 /***/ "./node_modules/node-waves/src/js/waves.js":
 /*!*************************************************!*\
   !*** ./node_modules/node-waves/src/js/waves.js ***!
@@ -1863,8 +1852,7 @@ eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpac
 /******/ 		var deferredModules = [
 /******/ 			["./resources/front/assets/js/app.js"],
 /******/ 			["./resources/front/assets/scss/framework/framework.scss"],
-/******/ 			["./resources/front/assets/scss/style/style.scss"],
-/******/ 			["./resources/front/assets/scss/neumorphism/neumorphism.scss"]
+/******/ 			["./resources/front/assets/scss/style/style.scss"]
 /******/ 		];
 /******/ 		// no chunk on demand loading
 /******/ 		
