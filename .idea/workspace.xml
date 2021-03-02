@@ -3,8 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="cf338b31-eca8-4939-b6c3-4d12370544eb" name="Default Changelist" comment="Neumorphism added as option">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/front/assets/scss/mixvar/variables.scss" beforeDir="false" afterPath="$PROJECT_DIR$/resources/front/assets/scss/mixvar/variables.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/webpack.mix.js" beforeDir="false" afterPath="$PROJECT_DIR$/webpack.mix.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -57,6 +56,7 @@
       <workItem from="1612785412636" duration="5845000" />
       <workItem from="1613747875747" duration="2014000" />
       <workItem from="1613974671797" duration="45000" />
+      <workItem from="1614712785536" duration="1003000" />
     </task>
     <servers />
   </component>
