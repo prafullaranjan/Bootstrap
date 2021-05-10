@@ -22,11 +22,10 @@ mix
         files: [
             'public/front/assets/js/**/*',
             'public/front/assets/css/**/*',
-            'resources/front/assets/**/**/**/*.js',
             '**/*.html'
         ],
         proxy: {
-            target: "localhost/bootstrap",
+            target: "localhost",
             ws: true,
         },
     })
