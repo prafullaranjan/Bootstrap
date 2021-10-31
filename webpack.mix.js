@@ -24,9 +24,7 @@ mix
             'public/front/assets/css/**/*',
             '**/*.html'
         ],
-        proxy: {
-            target: "localhost",
-            ws: true,
-        },
+        watch: true,
+        server: "./"
     })
     .disableNotifications();
